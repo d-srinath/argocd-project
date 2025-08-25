@@ -5,9 +5,5 @@ metadata:
   namespace: srinath-namespace
 spec:
   hard:
-    requests.cpu: "0"           # total requested CPU across all pods ≤ 2 cores
-    requests.memory: "0"        # total requested memory ≤ 4Gi
-    limits.cpu: "0"             # total CPU limit across all pods ≤ 4 cores
-    limits.memory: 1Gi          # total memory limit ≤ 8Gi
-    pods: "20"                  # max number of pods
-    persistentvolumeclaims: "
+    requests.cpu: "1"
+    requests.memory: "1Gi"
